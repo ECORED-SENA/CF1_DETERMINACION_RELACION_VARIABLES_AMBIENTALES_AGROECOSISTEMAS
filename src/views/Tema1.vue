@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/tema1/img1.png', alt='', style="width: 480px").m-auto
       .col-lg-7
-        p.mt-4.mt-lg-0 Surge como corriente o enfoque alternativo de producción, después de enfrentar las imposiciones de un modelo de #[b “Revolución verde”], en el que predominaban los monocultivos, las semillas mejoradas, el uso de maquinaria agrícola, la aplicación de fertilizantes y productos agrotóxicos. Entre las consecuencias de este modelo, están:
+        p.mt-4.mt-lg-0 Surge como corriente o enfoque alternativo de producción, después de enfrentar las imposiciones de un modelo de #[b “revolución verde”], en el que predominaban los monocultivos, las semillas mejoradas, el uso de maquinaria agrícola, la aplicación de fertilizantes y productos agrotóxicos. Entre las consecuencias de este modelo están:
         .row.mt-4.justify-content-center.p-5.bg-t1-1
           .row.p-2.justify-content-center.bg-t1-2
             .col-1.p-2
@@ -123,7 +123,7 @@
 
         .bloque-texto-c.bg-t1-4.p-4
           i.fas.fa-quote-right
-          h3.mb-2 Según la encuesta de FiBL-IFOAM (2021), a nivel global existen 72,3 millones de hectáreas destinadas a la producción ecológica. Australia encabeza la lista con 35,7 millones de hectáreas, seguida por Argentina con 3,7 millones y España con 2,4 millones de hectáreas.
+          h3.mb-2 Según la encuesta de <em>FiBL-IFOAM</em> (2021), a nivel global existen 72,3 millones de hectáreas destinadas a la producción ecológica. Australia encabeza la lista con 35,7 millones de hectáreas, seguida por Argentina con 3,7 millones y España con 2,4 millones de hectáreas.
 
       .col-lg-5.mt-4.mt-lg-0
         figure

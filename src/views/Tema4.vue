@@ -16,7 +16,7 @@
           
           .col-lg-8.d-flex
             .p-4.w-100.d-flex.align-items-center
-              p.mb-0 El estudio del territorio, junto con sus dimensiones, elementos y relaciones, permite identificar diversas variables que influyen en el desarrollo de un agroecosistema. Este análisis proporciona insumos clave para el diagnóstico y la planificación del sistema de producción, así como para la gestión integral del territorio. Dentro de este proceso, es posible identificar varias dimensiones fundamentales:
+              p.mb-0 Las variables ambientales y la biodiversidad desempeñan un papel fundamental en el equilibrio de los agroecosistemas. Comprender cómo interactúan y afectan el entorno permite tomar decisiones informadas para una gestión sostenible. En este video, se explorarán las principales variables ambientales y meteorológicas, así como su impacto en la biodiversidad y en los procesos productivos.
 
     .row.mt-4
       figure.mb-5
@@ -37,7 +37,7 @@
           
           .col-lg-7.d-flex
             .p-4.w-100.d-flex.align-items-center
-              p.mb-0 Para mayor comprensión en el siguiente esquema encuentra la clasificación de las variables agroclimáticas y las variables ambientales que se aplican a los componentes aguas y suelos, los cuales tiene gran influencia en los agroecosistemas:
+              p.mb-0 Para mayor comprensión, en el siguiente esquema se encuentra la clasificación de las variables agroclimáticas y las variables ambientales que se aplican a los componentes aguas y suelos, los cuales tienen gran influencia en los agroecosistemas:
 
 
     .row.mb-2.ms-0.mt-4
@@ -49,7 +49,7 @@
           .col
             h3.mb-0 Variables agroclimáticas
 
-      p.mt-4 Las variables agroclimáticas son esenciales para comprender las condiciones ambientales que influyen en el desarrollo de los agroecosistemas. Su análisis debe basarse en fuentes de información confiables, como estaciones meteorológicas cercanas, microestaciones dentro del agroecosistema, equipos portátiles de medición in situ y estudios recientes de la zona. Algunas de las variables agroclimáticas más relevantes incluyen:
+      p.mt-4 Las variables agroclimáticas son esenciales para comprender las condiciones ambientales que influyen en el desarrollo de los agroecosistemas. Su análisis debe basarse en fuentes de información confiables, como estaciones meteorológicas cercanas, microestaciones dentro del agroecosistema, equipos portátiles de medición #[i in situ] y estudios recientes de la zona. Algunas de las variables agroclimáticas más relevantes incluyen:
 
 
     .row.mt-4.align-items-center.justify-content-center

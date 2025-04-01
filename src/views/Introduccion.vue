@@ -12,7 +12,7 @@
         .p-5
           .row.justify-content-center.align-items-center.p-5.bg-intro2
             .col-lg-7
-              p En el componente formativo #[b Variables ambientales en agroecosistema], se estudian los diferentes tipos de agroecosistemas y los impactos que pueden derivarse de las problemáticas ambientales globales. Se analizan factores como el cambio climático, la deforestación y la degradación del suelo, los cuales influyen en la estabilidad y productividad de estos sistemas. Además, se identifican las variables ambientales según su clasificación en medios abióticos, bióticos y socioeconómicos, evaluando su papel en el desarrollo y sostenibilidad del agroecosistema.
+              p En el componente formativo #[b variables ambientales en agroecosistema], se estudian los diferentes tipos de agroecosistemas y los impactos que pueden derivarse de las problemáticas ambientales globales. Se analizan factores como el cambio climático, la deforestación y la degradación del suelo, los cuales influyen en la estabilidad y productividad de estos sistemas. Además, se identifican las variables ambientales según su clasificación en medios abióticos, bióticos y socioeconómicos, evaluando su papel en el desarrollo y sostenibilidad del agroecosistema.
             .col-lg-5.pe-lg-0.d-none.d-lg-block(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/intro/img1.png', alt='', style="width: 390px").m-auto
