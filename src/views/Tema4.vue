@@ -21,7 +21,7 @@
     .row.mt-4
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/3KDDv2LrIcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/JqhjzLaZIjM?si=_CJy59WJ5lrtDIBq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     separador
@@ -252,6 +252,24 @@
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema4/img4.png', alt='', style="width: 396px").m-auto
+
+
+          .tarjeta.color-primario.p-4.mt-4
+            .row.justify-content-around.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema4/img16.svg", style="width: 72px")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h4.mb-1(style="color: #F3D82A !important") Prácticas sostenibles en agroecosistemas 
+                    p.text-small.mb-0 Para profundizar en las prácticas de manejo en agroecosistemas, los impactos ambientales y los tipos de suelos, se invita a consultar el siguiente documento. 
+          
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href="downloads/Anexos/Anexo1.pdf" target="_blank")
+                      span.text-black Descargar
+                      i.fas.fa-file-download.text-black
+
+
 
 
                   

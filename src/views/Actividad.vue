@@ -23,6 +23,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> Fortalecer los conocimientos relacionados con agroecosistemas y variables ambientales.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
