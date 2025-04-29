@@ -26,7 +26,7 @@
                   h4 Agroecosistemas de monocultivo
                   p Se caracteriza por el desarrollo de cultivos en grandes áreas para la producción de una sola especie de planta. En estos agroecosistemas se puede tener cierta facilidad para su manejo, pero a la vez puede también acrecentar el ataque de plagas y enfermedades.
 
-                .col-md-8
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
 
@@ -35,7 +35,7 @@
                   h4 Agroecosistemas diversificados
                   p Permiten cultivar diferentes plantas simultáneamente, en estos casos puede darse la sinergia entre cultivos agrícolas y sistemas forestales, pastizales o especies de cobertura, esto contribuye con la biodiversidad y disminuye la vulnerabilidad a plagas y enfermedades.
 
-                .col-md-8
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
 
@@ -44,7 +44,7 @@
                   h4 Agroecosistemas de agricultura de conservación
                   p Se define por prácticas que permiten conservar la calidad del suelo; en este tipo de agroecosistemas se da la rotación de cultivos y la siembra directa. De esta forma, puede minimizarse impactos como la erosión y además permite mantener la productividad del suelo.
 
-                .col-md-8
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/tema2/img4.png', alt='Texto que describa la imagen')
 
@@ -53,7 +53,7 @@
                   h4 Agroecosistemas orgánicos
                   p Se identifica por evitar el uso de agroinsumos químicos, en la producción agrícola se propende por el uso de compostaje o mejoradores de suelos de tipo orgánico, también se implementa la rotación de cultivos para mantener la calidad ambiental y productiva del ecosistema agrícola.
 
-                .col-md-8
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/tema2/img5.png', alt='Texto que describa la imagen')
 
@@ -62,7 +62,7 @@
                   h4 Agroecosistemas agroforestales
                   p Se componen por la integración entre especies forestales árboles y cultivos agrícolas en una misma área, lo que permite generar un mayor equilibrio entre el cultivo la flora y la fauna, además, contribuye con la gestión adecuada del agua y la conservación del suelo.
 
-                .col-md-8
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
 

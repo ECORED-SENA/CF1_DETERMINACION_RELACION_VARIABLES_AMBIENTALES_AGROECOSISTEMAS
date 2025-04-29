@@ -52,69 +52,69 @@
       p.mt-4 Otros desafíos ambientales que afectan su equilibrio y sostenibilidad:
 
     .row.mt-4.align-items-center
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
+      .col-lg-3.col-md-6
+        .tarjeta--boton.bg-t1-3.p-2.target-with
           .row.justify-content-center.align-items-center
             .col-4
               figure
                 img(src='@/assets/curso/tema1/img2.png', style="width: 68px").m-auto
-            .col-8.mt-3
+            .col-8.mt-lg-3.mt-2
               p #[b Contaminación de ecosistemas.]
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mt-lg-0.mt-md-0.mt-4
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
             .col-4
               figure
                 img(src='@/assets/curso/tema1/img3.png', style="width: 68px").m-auto
-            .col-8.mt-3
+            .col-8.mt-lg-3.mt-2
               p #[b Disminución de la biodiversidad. ]
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mt-lg-0.mt-4
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
             .col-4
               figure
                 img(src='@/assets/curso/tema1/img4.png', style="width: 68px").m-auto
-            .col-8.mt-3
+            .col-8.mt-lg-3.mt-2
               p #[b Intoxicación por plaguicidas.]
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
+      .col-sm-6.col-lg-3.mt-lg-0.mt-4
+        .tarjeta--boton.bg-t1-3.p-2.target-with
           .row.justify-content-center.align-items-center
             .col-4
               figure
                 img(src='@/assets/curso/tema1/img5.png', style="width: 68px").m-auto
-            .col-7
+            .col-8.mt-lg-3.mt-2
               p #[b Impacto en la variabilidad climática.]
               
-    .row.mt-lg-4.align-items-center
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+    .row.mt-4.align-items-center
+      .col-sm-6.col-lg-3
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
             .col-4
               figure
                 img(src='@/assets/curso/tema1/img6.png', style="width: 68px").m-auto
-            .col-8.mt-3
+            .col-8.mt-lg-3.mt-2
               p #[b Degradación de los suelos.]
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mt-lg-0.mt-md-0.mt-4
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
             .col-4
               figure
                 img(src='@/assets/curso/tema1/img7.png', style="width: 68px").m-auto
-            .col-8.mt-3
+            .col-8.mt-lg-3.mt-2
 
               p #[b Pérdida de la soberanía alimentaria. ]
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mt-lg-0.mt-4
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
             .col-4
               figure
                 img(src='@/assets/curso/tema1/img8.png', style="width: 68px").m-auto
-            .col-8
+            .col-8.mt-lg-2.mt-2
               p #[b Aparición de plagas y enfermedades resistentes.]
 
     .row.mt-4.justify-content-center.align-items-center
@@ -181,29 +181,29 @@
           .tarjeta.p-4(style="background-color: #FFFFFF")
             SlyderA(tipo="b")
               .row.align-items-center.p-4.justify-content-center
-                .col-lg-6.mb-4.mb-md-0
+                .col-lg-7
                   h4 Producción ecológica, biológica u orgánica
                   p Sistema holístico de gestión de la producción agropecuaria, acuícola y pesquera que promueve la conservación de la biodiversidad, los ciclos biológicos y la actividad biológica del ecosistema. Se basa en la reducción de insumos externos y la exclusión de insumos de síntesis química.
 
-                .col-md-8
+                .col-lg-5
                   figure
                     img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
 
               .row.align-items-center.p-4.justify-content-center
-                .col-lg-6.mb-4.mb-md-0
+                .col-lg-7
                   h4 Agricultura orgánica
                   p Sistema de producción de alimentos que mantiene la salud de los suelos, los ecosistemas y las personas. Se basa en procesos ecológicos, biodiversidad y ciclos adaptados a las condiciones locales en lugar de insumos con efectos adversos. Combina tradición, innovación y ciencia para beneficiar el medio ambiente y promover relaciones justas y calidad de vida. (Federación Internacional de Movimientos de Agricultura, IFOAM).
 
-                .col-md-8
+                .col-lg-5
                   figure
                     img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
 
               .row.align-items-center.p-4.justify-content-center
-                .col-lg-6.mb-4.mb-md-0
+                .col-lg-7
                   h4 Agroecología
                   p Es una disciplina científica, un conjunto de prácticas y un movimiento social. Como ciencia, estudia sistemas agroalimentarios sostenibles; como práctica, optimiza y estabiliza la producción basada en conocimientos tradicionales y modernos; y como movimiento social, promueve la justicia social, la identidad cultural y la viabilidad económica de las zonas rurales. (Resolución 464 de 2017 del MADR).
 
-                .col-md-8
+                .col-lg-5
                   figure
                     img(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen')
 
@@ -331,10 +331,7 @@
                 h4.text-center Economía circular y solidaria
                 p.text-center Las economías circulares y solidarias que reconectan a productores y consumidores ofrecen soluciones innovadoras para vivir dentro de los límites de nuestro planeta y, al mismo tiempo, afianzan las bases sociales para el desarrollo inclusivo y sostenible. (FAO, 2021, p. 20).
 
-        .row.justify-content-center
-          .col-9
-            figcaption(style="margin-top: -20px") Nota. Tomado de documento propuesta de lineamientos de Política Pública en Agroecología para Colombia (2021, p 19 - 20)
-
+       
     .row.mt-4
       p Con el fin de proporcionar un marco normativo relacionada con los sellos de alimentos ecológicos, el Ministerio de Agricultura y Desarrollo Rural cuenta con las siguientes resoluciones: 
 

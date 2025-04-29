@@ -39,14 +39,14 @@
   color: black !important
 
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: white
 
 figcaption
   font-weight: normal
 
 .bg
   &-icon 
-    background-image: url(../assets/curso/tema1/bgicon.svg)
+    background-color: #F3D82A
     background-repeat: no-repeat
     background-position: center
     border-radius: 15px
@@ -142,6 +142,8 @@ figcaption
     margin-inline: -3.2rem !important
   &-intro4
     background-image: url(../assets/curso/intro/bgintro.png)
+  &-t4-6 
+    background-color: #3D631E
 
 ///// SLyder A tipo B Custom --------------------------------------
 .slyder-a__tipo-b .slyder-a__btn--atrs
@@ -271,6 +273,8 @@ figcaption
 
 .target-with
   height: 102px
+  @media screen and (max-width: $bp-max-lg)
+    height: 90px
 
 .imagen-al-final 
   display: flex !important
