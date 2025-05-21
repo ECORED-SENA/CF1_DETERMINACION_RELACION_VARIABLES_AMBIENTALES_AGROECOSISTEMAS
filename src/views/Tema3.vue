@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Dimensiones en los territorios
@@ -11,10 +11,10 @@
       .col-12
         .p-5
           .row.justify-content-center
-            .col-lg-4.pe-lg-0.d-none.d-lg-block.order-1
+            .col-lg-4.pe-lg-0.d-none.d-lg-block.order-1(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema3/img1.png', style="margin-left:-18px")
-            .col-lg-6.col-md-12
+            .col-lg-6.col-md-12(data-aos="fade-left")
               .row.align-items-center.h-100.bg-t3-2
                 .col
                   .p-4
@@ -22,10 +22,10 @@
 
           .carousel-bg
             .row.justify-content-center.mt-4.align-items-center
-              .col-lg-4
-                figure(data-aos="zoom-in")
+              .col-lg-4(data-aos="fade-right")
+                figure
                   img(src="@/assets/curso/tema3/img2.png", style="width:295px").m-auto
-              .col-lg-8
+              .col-lg-8(data-aos="fade-left")
                 SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-6")
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
@@ -74,13 +74,13 @@
                 .col
                   h3.mb-0 Suelo
 
-          p.mt-4 Para comprender el suelo, es fundamental considerar ciertas premisas establecidas por Sánchez y Praguer (2012):
+          p.mt-4(data-aos="fade-right") Para comprender el suelo, es fundamental considerar ciertas premisas establecidas por Sánchez y Praguer (2012):
 
           .row.mt-4.justify-content-center
-            .col-lg-4.pe-lg-0.d-none.d-lg-block
+            .col-lg-4.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema3/img8.png')
-            .col-lg-6.col-md-12
+            .col-lg-6.col-md-12(data-aos="fade-left")
               .row.align-items-center.h-100.bg-t3-2.p-4.justify-content-center
 
                 .row.justify-content-center.bg-t3-5
@@ -111,23 +111,20 @@
                   .col-11
                     p.mb-0.text-white Su fertilidad y salud son esenciales para el desarrollo de los cultivos.
 
-
           .row.justify-content-center.align-items-center.mt-4
-            .col-lg-1.col-md-auto.d-none.d-lg-block
+            .col-lg-1.col-md-auto.d-none.d-lg-block(data-aos="fade-right")
               figure
                 img(src="@/assets/curso/tema3/img9.png", alt="", style="width: 90px").m-auto
-            .col-lg-11
+            .col-lg-11(data-aos="fade-left")
               p.mb-0 El suelo es uno de los pilares fundamentales de la agricultura ecológica y agroecológica, sirviendo de base para el diseño de un agroecosistema sostenible. Aunque puede percibirse como un recurso estático e inerte, en realidad alberga una gran riqueza química y biológica que no es visible a simple vista.
 
           .row.mt-4.justify-content-center
-            .col-lg-5.pe-lg-0.d-none.d-lg-block
+            .col-lg-5.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema3/img10.png', style="margin-left:10px")
-            .col-lg-7.col-md-12
+            .col-lg-7.col-md-12(data-aos="fade-left")
               .row.align-items-center.h-100.bg-t3-6.p-4.justify-content-center
                 p.mb-0 Otro aspecto fundamental para la salud del suelo es la #[b materia orgánica], resultado de la descomposición biológica de residuos orgánicos en el mismo sitio. Su presencia influye directamente en las propiedades físicas y químicas del suelo, como la estructura, la porosidad, la infiltración, la retención de humedad, la biodiversidad y la fertilidad. Además, su impacto se extiende a la calidad nutricional de los alimentos producidos, fortaleciendo la sostenibilidad de los agroecosistemas.
-            
-                  
 
 </template>
 

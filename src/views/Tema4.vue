@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Variables ambientales y biodiversidad 
@@ -20,9 +20,8 @@
 
     .row.mt-4
       figure.mb-5
-        .video
+        .video(data-aos="fade-left")
           iframe(width="560" height="315" src="https://www.youtube.com/embed/JqhjzLaZIjM?si=_CJy59WJ5lrtDIBq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
 
     separador
     #t_4_1.titulo-segundo.color-primario
@@ -39,7 +38,6 @@
             .p-4.w-100.d-flex.align-items-center
               p.mb-0 Para mayor comprensión, en el siguiente esquema se encuentra la clasificación de las variables agroclimáticas y las variables ambientales que se aplican a los componentes aguas y suelos, los cuales tienen gran influencia en los agroecosistemas:
 
-
     .row.mb-2.ms-0.mt-4
       .col-auto.bg-icon(data-aos="fade-left")
         .row.align-items-center
@@ -49,10 +47,9 @@
           .col
             h3.mb-0 Variables agroclimáticas
 
-      p.mt-4 Las variables agroclimáticas son esenciales para comprender las condiciones ambientales que influyen en el desarrollo de los agroecosistemas. Su análisis debe basarse en fuentes de información confiables, como estaciones meteorológicas cercanas, microestaciones dentro del agroecosistema, equipos portátiles de medición #[i in situ] y estudios recientes de la zona. Algunas de las variables agroclimáticas más relevantes incluyen:
+      p.mt-4(data-aos="fade-right") Las variables agroclimáticas son esenciales para comprender las condiciones ambientales que influyen en el desarrollo de los agroecosistemas. Su análisis debe basarse en fuentes de información confiables, como estaciones meteorológicas cercanas, microestaciones dentro del agroecosistema, equipos portátiles de medición #[i in situ] y estudios recientes de la zona. Algunas de las variables agroclimáticas más relevantes incluyen:
 
-
-    .row.mt-4.align-items-center.justify-content-center
+    .row.mt-4.align-items-center.justify-content-center(data-aos="fade-right")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
@@ -79,10 +76,8 @@
                 img(src='@/assets/curso/tema4/img8.png', style="width: 68px").m-auto
             .col-8.mt-3
               p #[b Altitud: m.s.n.m.]
-
-
               
-    .row.mt-4.align-items-center.justify-content-center
+    .row.mt-4.align-items-center.justify-content-center(data-aos="fade-right")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
@@ -103,10 +98,10 @@
               p #[b Velocidad del viento (m/s).]
 
     .row.mt-4.align-items-center
-      .col-lg-3 
+      .col-lg-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/img13.png', alt='', style="width: 295px").m-auto
-      .col-lg-9 
+      .col-lg-9(data-aos="fade-left")
         .row.justify-content-center.align-items-center.mt-4.mt-lg-0
           .col-lg-12(data-aos="fade-down")
             .row.d-flex.align-items-stretch.bg-t4-2
@@ -127,10 +122,10 @@
           .col
             h3.mb-0 Variables ambientales del agua y el suelo
 
-      p.mt-4 La calidad del agua se determina al comparar sus características físicas, químicas y microbiológicas con los estándares establecidos en la normativa vigente (IDEAM, 2018). Para un monitoreo adecuado, se recomienda evaluar los siguientes parámetros de calidad del agua, según el Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM, 2018):
+      p.mt-4(data-aos="fade-down") La calidad del agua se determina al comparar sus características físicas, químicas y microbiológicas con los estándares establecidos en la normativa vigente (IDEAM, 2018). Para un monitoreo adecuado, se recomienda evaluar los siguientes parámetros de calidad del agua, según el Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM, 2018):
 
     .row.justify-content-center.mt-4
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .row.justify-content-center
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 1
@@ -163,7 +158,7 @@
           .col
             h3.mb-0 Beneficios
 
-      p.mt-4 En un agroecosistema con manejo ecológico o agroecológico, incrementar la biodiversidad es una meta clave debido a los múltiples beneficios que aporta (FAO, 2018). Entre ellos se destacan:
+      p.mt-4(data-aos="fade-down") En un agroecosistema con manejo ecológico o agroecológico, incrementar la biodiversidad es una meta clave debido a los múltiples beneficios que aporta (FAO, 2018). Entre ellos se destacan:
 
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
@@ -217,7 +212,6 @@
                   .col-11
                     p.mb-0 #[b Diversificación de productos agroecosistémicos.]
 
-
     .row.bg-t4-5
       .col-12
         .p-5
@@ -230,7 +224,7 @@
                 .col
                   h3.mb-0 Clasificación de la biodiversidad
             
-            p.mt-4 Para analizar la biodiversidad en un agroecosistema, se pueden identificar tres aspectos clave:
+            p.mt-4(data-aos="fade-left") Para analizar la biodiversidad en un agroecosistema, se pueden identificar tres aspectos clave:
 
           .bg_img_01.mt-4
             .row.justify-content-center.mb-5
@@ -253,8 +247,7 @@
                 figure
                   img(src='@/assets/curso/tema4/img4.png', alt='', style="width: 396px").m-auto
 
-
-          .tarjeta.bg-t4-6.p-4.mt-4
+          .tarjeta.bg-t4-6.p-4.mt-4(data-aos="fade-right")
             .row.justify-content-around.align-items-center
               .col-auto
                 img(src="@/assets/curso/tema4/img16.svg", style="width: 72px")
@@ -268,13 +261,6 @@
                     a.boton.color-acento-botones(href="downloads/Anexos/Anexo1_Practicas_Sostenibles_Agroecosistemas.pdf" target="_blank")
                       span(style="font-weight: normal;" class="text-black") Descargar
                       i.fas.fa-file-download.text-black
-
-
-
-
-                  
-
-
 
 </template>
 

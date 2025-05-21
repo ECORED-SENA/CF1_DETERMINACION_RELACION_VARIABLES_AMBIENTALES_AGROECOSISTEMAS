@@ -2,16 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Producción agropecuaria ecológica y agroecológica
 
     .row.justify-content-center
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img1.png', alt='', style="width: 480px").m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p.mt-4.mt-lg-0 Surge como corriente o enfoque alternativo de producción, después de enfrentar las imposiciones de un modelo de #[b “revolución verde”], en el que predominaban los monocultivos, las semillas mejoradas, el uso de maquinaria agrícola, la aplicación de fertilizantes y productos agrotóxicos. Entre las consecuencias de este modelo están:
         .row.mt-4.justify-content-center.p-5.bg-t1-1
           .row.p-2.justify-content-center.bg-t1-2
@@ -49,9 +49,9 @@
             .col-11
               p.mb-0 Endeudamiento de los agricultores por dependencia económica de insumos y paquetes tecnológicos.
 
-      p.mt-4 Otros desafíos ambientales que afectan su equilibrio y sostenibilidad:
+      p.mt-4(data-aos="fade-down") Otros desafíos ambientales que afectan su equilibrio y sostenibilidad:
 
-    .row.mt-4.align-items-center
+    .row.mt-4.align-items-center(data-aos="fade-right")
       .col-lg-3.col-md-6
         .tarjeta--boton.bg-t1-3.p-2.target-with
           .row.justify-content-center.align-items-center
@@ -88,7 +88,7 @@
             .col-8.mt-lg-3.mt-2
               p #[b Impacto en la variabilidad climática.]
               
-    .row.mt-4.align-items-center
+    .row.mt-4.align-items-center(data-aos="fade-left")
       .col-sm-6.col-lg-3
         .tarjeta--boton.bg-t1-3.p-2.align-items-center.target-with
           .row.justify-content-center.align-items-center
@@ -118,30 +118,29 @@
               p #[b Aparición de plagas y enfermedades resistentes.]
 
     .row.mt-4.justify-content-center.align-items-center
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p Ante esta problemática, la agricultura ecológica, también conocida como biológica u orgánica según la normatividad colombiana expedida por el Ministerio de Agricultura y Desarrollo Rural, junto con la agroecología, ha cobrado gran relevancia en los últimos años. Esto se debe a los beneficios sociales, económicos y ambientales que aporta, así como a la producción de alimentos inocuos, cultivados sin el uso de plaguicidas, los cuales son altamente demandados por consumidores a nivel mundial.
 
         .bloque-texto-c.bg-t1-4.p-4
           i.fas.fa-quote-right
           h3.mb-2 Según la encuesta de <em>FiBL-IFOAM</em> (2021), a nivel global existen 72,3 millones de hectáreas destinadas a la producción ecológica. Australia encabeza la lista con 35,7 millones de hectáreas, seguida por Argentina con 3,7 millones y España con 2,4 millones de hectáreas.
 
-      .col-lg-5.mt-4.mt-lg-0
+      .col-lg-5.mt-4.mt-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img9.png', alt='', style="width: 480px").m-auto
-
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Problemáticas ambientales
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-down")
       .col-lg-1.col-md-auto.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema1/img10.png", alt="", style="width: 90px").m-auto
       .col-lg-11
         p.mb-0 Debido a las diversas actividades antrópicas que se desarrollan en diferentes regiones a nivel mundial, nacional y local, se están experimentando graves consecuencias relacionadas con problemáticas ambientales que afectan directamente a los agroecosistemas. Esto hace fundamental la implementación de medidas de manejo sostenible que contribuyan a la adecuada gestión de los recursos naturales. Entre las principales problemáticas ambientales se destacan las siguientes:
 
-    TabsC.color-acento-contenido.mt-4
+    TabsC.color-acento-contenido.mt-4(data-aos="fade-right")
       .py-3.py-md-4.p-4.bg-t1-5(titulo="Cambio climático")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
@@ -171,15 +170,15 @@
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Marco Normativo Producción Agropecuaria Ecológica
+      h2 1.2 Marco normativo producción agropecuaria ecológica
 
-    p En Colombia, el Ministerio de Agricultura y Desarrollo Rural (MADR) y la Federación Internacional de Movimientos de Agricultura. (IFOAM) definen los conceptos de producción ecológica, biológica u orgánica, agricultura orgánica y agroecología de la siguiente manera:
+    p(data-aos="fade-down") En Colombia, el Ministerio de Agricultura y Desarrollo Rural (MADR) y la Federación Internacional de Movimientos de Agricultura. (IFOAM) definen los conceptos de producción ecológica, biológica u orgánica, agricultura orgánica y agroecología de la siguiente manera:
 
     .row.justify-content-center.bg-t1-6
       .col-12
         .p-5
           .tarjeta.p-4(style="background-color: #FFFFFF")
-            SlyderA(tipo="b")
+            SlyderA(tipo="b")(data-aos="fade-right")
               .row.align-items-center.p-4.justify-content-center
                 .col-lg-7
                   h4 Producción ecológica, biológica u orgánica
@@ -207,7 +206,7 @@
                   figure
                     img(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mt-4
+    .row.justify-content-center.align-items-center.mt-4(data-aos="fade-left")
       .col-lg-1.col-md-auto.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema1/img17.png", alt="", style="width: 90px").m-auto
@@ -215,7 +214,7 @@
         p.mb-0 Es importante diferenciar estos enfoques, ya que, aunque comparten objetivos comunes orientados hacia la sostenibilidad y la producción responsable, presentan diferencias en su implementación. Uno de estos enfoques se centra en el estudio de las interacciones ecológicas entre los distintos componentes del agroecosistema, analizando cómo influyen entre sí y cómo pueden optimizarse para mejorar la productividad y la resiliencia del sistema.
 
     .row.mt-4.justify-content-center
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta--boton.bg-t1-7.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -224,7 +223,7 @@
 
           p.text-center.mt-4 La agricultura ecológica, biológica u orgánica se emplea para la producción certificada por una tercera parte u organismo de certificación. 
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta--boton.bg-t1-7.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -232,7 +231,6 @@
                 img(src='@/assets/curso/tema1/img19.png', style="width: 90px").m-auto
 
           p.text-center.mt-4 La agroecología no está regulada, y tiene un enfoque más holístico, aunque algunas veces están certificadas por una tercera parte o por un esquema alternativo.
-
 
     .row.mb-2.ms-0.mt-4
       .col-auto.bg-icon(data-aos="fade-left")
@@ -244,23 +242,23 @@
             h3.mb-0 Agrosistemas sostenibles 
 
     .row.mt-4.justify-content-center.align-items-center
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .bloque-texto-c.bg-t1-4.p-4
           i.fas.fa-quote-right
           h3.mb-2 Son sistemas que pueden mantener el recurso base del cual se depende, aportando un mínimo de insumos artificiales externos, y cumpliendo con unas prácticas de sostenibilidad ambiental, social y económica que le permitan al sistema tener la capacidad de recuperarse.
-          span - (Ministerio de Ambiente y Desarrollo Sostenible, 2014).
+          span (Ministerio de Ambiente y Desarrollo Sostenible, 2014).
 
-      .col-lg-5.mt-4.mt-lg-0
+      .col-lg-5.mt-4.mt-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img20.png', alt='', style="width: 480px").m-auto
 
     .row.mt-lg-4.bg-t1-8
       .col-12
         .p-5
-          p #[b Los 10 elementos de la agroecología] constituyen principios clave que orientan la transformación de los sistemas agrícolas hacia modelos más sostenibles y resilientes. Estos principios permiten fortalecer la seguridad alimentaria, reducir la dependencia de insumos externos y fomentar comunidades más equitativas e integradas con su entorno.
+          p(data-aos="fade-down") #[b Los 10 elementos de la agroecología] constituyen principios clave que orientan la transformación de los sistemas agrícolas hacia modelos más sostenibles y resilientes. Estos principios permiten fortalecer la seguridad alimentaria, reducir la dependencia de insumos externos y fomentar comunidades más equitativas e integradas con su entorno.
               
           .carousel-bg
-            SlyderF(columnas="col-lg-6 col-xl-4 col-md-6")
+            SlyderF(columnas="col-lg-6 col-xl-4 col-md-6")(data-aos="fade-left")
               .tarjeta.bg-t1-9.p-4
                 .row.justify-content-center.mb-3
                   .col-8
@@ -330,17 +328,16 @@
                     img(src='@/assets/curso/tema1/img30.png', style="width:91px").m-auto
                 h4.text-center Economía circular y solidaria
                 p.text-center Las economías circulares y solidarias que reconectan a productores y consumidores ofrecen soluciones innovadoras para vivir dentro de los límites de nuestro planeta y, al mismo tiempo, afianzan las bases sociales para el desarrollo inclusivo y sostenible. (FAO, 2021, p. 20).
-
        
     .row.mt-4
-      p Con el fin de proporcionar un marco normativo relacionada con los sellos de alimentos ecológicos, el Ministerio de Agricultura y Desarrollo Rural cuenta con las siguientes resoluciones: 
+      p(data-aos="fade-down") Con el fin de proporcionar un marco normativo relacionada con los sellos de alimentos ecológicos, el Ministerio de Agricultura y Desarrollo Rural cuenta con las siguientes resoluciones: 
 
     .row.mt-4.justify-content-center
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         TabsA.color-acento-botones.mb-5
           .tarjeta.clr-paleYellow.p-4(titulo="Resolución 0148 de 2004")
             h4 Resolución 0148 de 2004
-            p Por la cual se crea el Sello de Alimento Ecológico y se reglamenta su otorgamiento y uso.
+            p Por la cual se crea el sello de alimento ecológico y se reglamenta su otorgamiento y uso.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Resolución 0187 de 2006")
             h4 Resolución 0187 de 2006
@@ -358,17 +355,17 @@
             h4 Resolución 199 de 2016
             p Por la cual se modifica parcialmente el Reglamento para la producción primaria, procesamiento, empacado, etiquetado, almacenamiento, certificación, importación y comercialización de productos agropecuarios ecológicos – Versión 1, adoptado mediante la Resolución 0187 de 2006.
 
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img31.png', alt='', style="width: 480px").m-auto
 
     .row.mt-2.align-items-center
-      p Con el propósito de “fomentar la agroecología y otras agriculturas para la vida hacia la construcción de sistemas alimentarios territoriales sustentables, resilientes y equitativos que contribuyan a la transformación productiva, la soberanía alimentaria, la conservación de la biodiversidad y el buen vivir de la sociedad colombiana” (Ministerio de Agricultura y Desarrollo Rural, 2024), Colombia cuenta con la Política Pública de Agroecología, la cual establece los siguientes lineamientos y acciones estratégicas:
+      p(data-aos="fade-down") Con el propósito de “fomentar la agroecología y otras agriculturas para la vida hacia la construcción de sistemas alimentarios territoriales sustentables, resilientes y equitativos que contribuyan a la transformación productiva, la soberanía alimentaria, la conservación de la biodiversidad y el buen vivir de la sociedad colombiana” (Ministerio de Agricultura y Desarrollo Rural, 2024), Colombia cuenta con la Política Pública de Agroecología, la cual establece los siguientes lineamientos y acciones estratégicas:
       
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img32.png', alt='', style="width: 480px").m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Gestión del conocimiento agroecológico")
               .col-12
@@ -384,19 +381,19 @@
 
             .row(titulo="Agrobiodiversidad, sistemas bioculturales y crisis climática.")
               .col-12
-                p.mb-0 Lineamiento enfocado en la recuperación y reconocimiento de los saberes ancestrales y tradicionales relacionados a la agrobiodiversidad y los sistemas bioculturales de comunidades étnicas y campesinas. (Ministerio de Agricultura y Desarrollo Rural, 2024, p. 53).
+                p.mb-0 Lineamiento enfocado en la recuperación y reconocimiento de los saberes ancestrales y tradicionales relacionados con la agrobiodiversidad y los sistemas bioculturales de comunidades étnicas y campesinas. (Ministerio de Agricultura y Desarrollo Rural, 2024, p. 53).
 
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Sellos de alimentos ecológicos
 
-    p Dependiendo de su origen, los alimentos se pueden clasificar como:
+    p(data-aos="fade-down") Dependiendo de su origen, los alimentos se pueden clasificar como:
 
     .row.justify-content-center.bg-t1-6
       .col-12
         .p-5
-          .tarjeta.p-4(style="background-color: #FFFFFF")
+          .tarjeta.p-4(style="background-color: #FFFFFF")(data-aos="fade-left")
             SlyderA(tipo="b")
               .row.align-items-center.p-4
                 .col-md-6.mb-4.mb-md-0
@@ -424,33 +421,34 @@
                 .col-md-6
                   figure
                     img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen')
+
     .row.mt-4
-      p Para complementar la identificación de la procedencia de los alimentos, estos obtienen:
+      p(data-aos="fade-down") Para complementar la identificación de la procedencia de los alimentos, estos obtienen:
 
     .row.mt-lg-4.bg-t1-11
       .col-12
         .p-5
           .row.justify-content-center
-            .col-sm-6.col-xl-4.mb-4.mb-xl-0
+            .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
               .tarjeta.tarjeta-slide.arriba.bg-t1-12(@mouseover="indicadorTarjetaSlide = false")
                 .indicador--hover(v-if="indicadorTarjetaSlide")
                 .tarjeta-tarjeta-slide__contenedor
                   .tarjeta-slide__contenido.p-4.p-xl-5.mt-5
-                    h4.text-center Sello de Alimento Ecológico
+                    h4.text-center Sello de alimento ecológico
                     p.text-center Este sello se emplea para el comercio nacional y es de observancia voluntaria, es decir, lo usan los productores que voluntariamente se certifiquen bajo la normatividad en mención.
-                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img36.svg')})`, 'width': '400px'}")
-            .col-sm-6.col-xl-4.mb-4.mb-xl-0
+                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img39.png')})`, 'width': '400px'}")
+            .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
               .tarjeta.tarjeta-slide.arriba.bg-t1-12(@mouseover="indicadorTarjetaSlide = false")
                 .indicador--hover(v-if="indicadorTarjetaSlide")
                 .tarjeta-slide__contenedor
                   .tarjeta-slide__contenido.p-4.p-xl-5
-                    h4.text-center Sellos Orgánicos De Estados Unidos, Japón, Unión Europea, Canadá y Corea
+                    h4.text-center Sellos orgánicos de Estados Unidos, Japón, Unión Europea, Canadá y Corea
                     p.text-center Sellos orgánicos de Estados Unidos, Japón, Unión Europea, Canadá y Corea. Los sellos internacionales de productos ecológicos son creados por cada país y son de observancia obligatoria para los productores nacionales que desean exportar sus productos.
-                  .tarjeta-slide__img.h-100(:style="{'background-image': `url(${require('@/assets/curso/tema1/img37.svg')})`}")
+                  .tarjeta-slide__img.h-100(:style="{'background-image': `url(${require('@/assets/curso/tema1/img40.png')})`}")
 
-            p.mt-4 #[b El Sello de Alimento Nacional] fue creado con el propósito de fomentar la producción, comercialización y consumo de alimentos obtenidos a través de sistemas de producción ecológica. Además, busca proporcionar al consumidor información clara, confiable y suficiente para diferenciar los productos agropecuarios ecológicos de los convencionales.
+            p.mt-4(data-aos="fade-down") #[b El sello de alimento nacional] fue creado con el propósito de fomentar la producción, comercialización y consumo de alimentos obtenidos a través de sistemas de producción ecológica. Además, busca proporcionar al consumidor información clara, confiable y suficiente para diferenciar los productos agropecuarios ecológicos de los convencionales.
 
-            .row.mt-lg-4.justify-content-center.mb-5
+            .row.mt-lg-4.justify-content-center.mb-5(data-aos="fade-left")
               .col-10
                 .row.bg-t1-13
                   .col-lg-2.pe-lg-0.d-none.d-lg-block
@@ -460,9 +458,7 @@
                     .row.align-items-center.h-100
                       .col
                         .p-4
-                          p.mb-0.mt-2 Para obtener cada sello internacional, los países deben cumplir con un proceso de certificación. En el caso de Colombia, hasta la fecha, no cuenta con tratados de equivalencia comercial para la exportación de productos ecológicos con el Sello de #[b Alimento Ecológico].
-
-          
+                          p.mb-0.mt-2 Para obtener cada sello internacional, los países deben cumplir con un proceso de certificación. En el caso de Colombia, hasta la fecha, no cuenta con tratados de equivalencia comercial para la exportación de productos ecológicos con #[b el sello de alimento ecológico].
 
 </template>
 
@@ -472,6 +468,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

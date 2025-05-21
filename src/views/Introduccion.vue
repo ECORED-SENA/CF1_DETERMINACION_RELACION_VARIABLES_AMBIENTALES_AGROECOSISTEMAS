@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -11,12 +11,11 @@
       .col-lg-12
         .p-5
           .row.justify-content-center.align-items-center.p-5.bg-intro2
-            .col-lg-7
+            .col-lg-7(data-aos="fade-right")
               p En el componente formativo #[b variables ambientales en agroecosistema], se estudian los diferentes tipos de agroecosistemas y los impactos que pueden derivarse de las problemáticas ambientales globales. Se analizan factores como el cambio climático, la deforestación y la degradación del suelo, los cuales influyen en la estabilidad y productividad de estos sistemas. Además, se identifican las variables ambientales según su clasificación en medios abióticos, bióticos y socioeconómicos, evaluando su papel en el desarrollo y sostenibilidad del agroecosistema.
             .col-lg-5.pe-lg-0.d-none.d-lg-block(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/intro/img1.png', alt='', style="width: 390px").m-auto
-
 
           .row.justify-content-center.mb-5.mt-4
             .col-lg-10(data-aos="fade-down")
@@ -29,9 +28,7 @@
                   .p-4.w-100.d-flex.align-items-center
                     p.mb-0 La determinación de estas variables es fundamental para la toma de decisiones en la gestión agropecuaria. Al comprender su interacción con los sistemas productivos, es posible optimizar el uso de recursos, minimizar impactos negativos y fomentar prácticas sostenibles. Para ello, se emplea una matriz de priorización basada en criterios como magnitud, gravedad, capacidad de gestión y beneficio, lo que permite establecer qué variables requieren mayor atención según el tipo de agroecosistema analizado.
 
-          
-
-          .row.mt-4.justify-content-center.align-items-center
+          .row.mt-4.justify-content-center.align-items-center(data-aos="fade-right")
             .col-lg-1.col-md-auto.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/intro/img3.png", alt="", style="width: 90px").m-auto
@@ -40,9 +37,6 @@
             .col-lg-1.col-md-auto.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/intro/img4.png", alt="", style="width: 90px").m-auto
-
-        
-
         
 </template>
 
@@ -52,6 +46,14 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

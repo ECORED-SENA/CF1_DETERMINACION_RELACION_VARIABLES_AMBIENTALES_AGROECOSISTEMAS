@@ -46,7 +46,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Marco Normativo Producción Agropecuaria Ecológica',
+            titulo: 'Marco normativo producción agropecuaria ecológica',
             hash: 't_1_2',
           },
           {
@@ -119,7 +119,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/72210002_CF1.zip',
+        download: 'downloads/72210009_CF01.zip',
       },
       {
         icono: 'fas fa-download',
@@ -216,7 +216,8 @@ export default {
     {
       referencia:
         'Ministerio de Agricultura y Desarrollo Rural. (2024). Política Pública de Agroecología.',
-      link: '%20-%20Lineamientos%20de%20Pol%C3%ADtica%20P%C3%BAblica.pdf',
+      link:
+        'https://www.minagricultura.gov.co/Normatividad/Resoluciones/Anexo%20T%C3%A9cnico%20-%20Lineamientos%20de%20Pol%C3%ADtica%20P%C3%BAblica.pdf',
     },
     {
       referencia:
